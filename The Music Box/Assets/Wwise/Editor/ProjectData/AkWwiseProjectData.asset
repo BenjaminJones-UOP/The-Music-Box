@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cfb6abe1525f4b97b7ba2666bc3a0e2, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - Guid: '{9A9DA759-9742-4F3F-9C83-56A81B7BFA91}'
+    m_lastTimePart2: -1999205121
+    m_lastTimePsrt1: 635947008
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    List: []
+  autoPopulateEnabled: 1
+  AuxBusWwu:
+  - Guid: '{B448408F-4530-4CB5-84A9-C889BE5CEAA9}'
+    m_lastTimePart2: -1999205121
+    m_lastTimePsrt1: 635947008
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{68647F0A-7B38-4866-83FC-C5283250EB16}'
+    m_lastTimePart2: -1999188820
+    m_lastTimePsrt1: -30912384
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks/Default Work Unit.wwu
+    List:
+    - Guid: 874735f43560d346957efc173dc07723
+      ID: -1133058374
+      Name: Main
+      Path: Default Work Unit/Main
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+  basePath: Audio/GeneratedSoundBanks
+  callbackManagerBufferSize: 4
+  CurrentPluginConfig: 
+  defaultPoolSize: 4096
+  EventWwu:
+  - Guid: '{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}'
+    m_lastTimePart2: -1999188820
+    m_lastTimePsrt1: -470912384
+    ParentPhysicalPath: 
+    PhysicalPath: Events/Default Work Unit.wwu
+    List:
+    - Guid: c7b09c4b0ec59d4d97e60ca143a37e9b
+      ID: -1296001161
+      Name: Bath_Taps
+      Path: Default Work Unit/Bath_Taps
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bath_Taps
+        ObjectType: 3
+      maxAttenuation: 30
+      maxDuration: 0
+      minDuration: 0
+    - Guid: fabd334db270d34c90a7a3c1c778b608
+      ID: 175705637
+      Name: Clock_Ticking
+      Path: Default Work Unit/Clock_Ticking
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Clock_Ticking
+        ObjectType: 3
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4ca3bc994a417a469c90e32fa70b3443
+      ID: 849535652
+      Name: Completed_Task
+      Path: Default Work Unit/Completed_Task
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Completed_Task
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 3348bf79fba82941bb595e9debac9b0a
+      ID: -1112631014
+      Name: FootstepsEvent
+      Path: Default Work Unit/FootstepsEvent
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FootstepsEvent
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4b9eca1291c4e747b8599fff2ee4cc2f
+      ID: 1286660161
+      Name: Garden_Ambience
+      Path: Default Work Unit/Garden_Ambience
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Garden_Ambience
+        ObjectType: 3
+      maxAttenuation: 41
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 689ebba764f8c149aafe5dcdafecc5e6
+      ID: -1055785
+      Name: GeneratorOn
+      Path: Default Work Unit/GeneratorOn
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GeneratorOn
+        ObjectType: 3
+      maxAttenuation: 30
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 55fa43ae1cf9154dad6881bd181788f8
+      ID: 1550918064
+      Name: GeneratorTurnOff
+      Path: Default Work Unit/GeneratorTurnOff
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GeneratorTurnOff
+        ObjectType: 3
+      maxAttenuation: 30
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 29435a8690d1eb428d6820dd1d160fcb
+      ID: -236694374
+      Name: GeneratorTurnOn
+      Path: Default Work Unit/GeneratorTurnOn
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GeneratorTurnOn
+        ObjectType: 3
+      maxAttenuation: 30
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4457f51778689642b57e8f927ae161da
+      ID: -126299952
+      Name: Open_Back_Door
+      Path: Default Work Unit/Open_Back_Door
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Open_Back_Door
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 3c70949e0572174d8bdb8ea3256eb621
+      ID: 1479511750
+      Name: Open_Clock
+      Path: Default Work Unit/Open_Clock
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Open_Clock
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: bf8927cebbd84949b6ceeb4e1e925125
+      ID: -1982818652
+      Name: Open_Front_Door
+      Path: Default Work Unit/Open_Front_Door
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Open_Front_Door
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4d7cf9e32bad1e429936223932b5f3dc
+      ID: -1650768052
+      Name: Open_Indoor_Door
+      Path: Default Work Unit/Open_Indoor_Door
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Open_Indoor_Door
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 6aae0e34fd6a8e45b425a7f676ee4e7e
+      ID: -1678692726
+      Name: Pick_Up_Key
+      Path: Default Work Unit/Pick_Up_Key
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pick_Up_Key
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 5fe27e5e81b0224698231b4b6d0c7771
+      ID: 277024923
+      Name: Pull_Plug
+      Path: Default Work Unit/Pull_Plug
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pull_Plug
+        ObjectType: 3
+      maxAttenuation: 30
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 5d5d122f0e46534a8a0342e40326f00a
+      ID: -2113063196
+      Name: TrafficAmbience
+      Path: Default Work Unit/TrafficAmbience
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TrafficAmbience
+        ObjectType: 3
+      maxAttenuation: 41
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 0f92c423ad9dec4dbcee6a969d6c2e8d
+      ID: -227636305
+      Name: Wallhits
+      Path: Default Work Unit/Wallhits
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wallhits
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 522ccee44bda134c91a17c27dd4456d2
+      ID: 1906163388
+      Name: Wrong_Task
+      Path: Default Work Unit/Wrong_Task
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wrong_Task
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /The Music Box_WwiseProject
+  - /The Music Box_WwiseProject/Events
+  - /The Music Box_WwiseProject/Events/Default Work Unit
+  - /The Music Box_WwiseProject/States
+  - /The Music Box_WwiseProject/States/Default Work Unit
+  - /The Music Box_WwiseProject/States/Default Work Unit/FootstepsSwitch
+  language: English(US)
+  lowerPoolSize: 2048
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  memoryCutoffThreshold: 0.95
+  preparePoolSize: 0
+  RtpcWwu:
+  - Guid: '{164C888D-D45D-4386-B551-1A30249AB2E5}'
+    m_lastTimePart2: -1999188434
+    m_lastTimePsrt1: 1826678656
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters/Default Work Unit.wwu
+    List:
+    - Guid: c1a8836973d250488a3602b33111da37
+      ID: 68271166
+      Name: WallPan
+      Path: Default Work Unit/WallPan
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WallPan
+        ObjectType: 13
+  StateWwu:
+  - Guid: '{41F49D7C-E645-4F52-9BBD-146630802493}'
+    m_lastTimePart2: -1999188818
+    m_lastTimePsrt1: 674120320
+    ParentPhysicalPath: 
+    PhysicalPath: States/Default Work Unit.wwu
+    List:
+    - Guid: fd9cf016768b3541aa334459042761f9
+      ID: -708105442
+      Name: FootstepsSwitch
+      Path: Default Work Unit/FootstepsSwitch
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FootstepsSwitch
+        ObjectType: 9
+      ValueGuids:
+      - bytes: ca4a98cf430db642ab5e4b8ad0bbdd66
+      - bytes: 6c802cbf5055f441971a0eff49866e6d
+      - bytes: 65ed1e346c65da4c871b3ddd51dc060f
+      - bytes: c9f4c3959b903d41a0d5c40d5649de70
+      - bytes: d31350b9d8d9fc46a49c840e9d59ec5b
+      - bytes: 6b3157f92144dd49add3c4cea282de50
+      - bytes: 730e9fa18924cb4daee8c8ad51bdab5a
+      - bytes: 511d3392af742340b1fb6fdfdabcbb31
+      ValueIcons:
+      - ElementName: Carpet
+        ObjectType: 8
+      - ElementName: Floorboards
+        ObjectType: 8
+      - ElementName: Grass
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Stairs
+        ObjectType: 8
+      - ElementName: StairsAttic
+        ObjectType: 8
+      - ElementName: Tiles
+        ObjectType: 8
+      - ElementName: WetTiles
+        ObjectType: 8
+      valueIDs: 6473cd8f5ab12f2ed92e3dfddb3ba32c97f4e24c340cf663982aa6c566766b26
+      values:
+      - Carpet
+      - Floorboards
+      - Grass
+      - None
+      - Stairs
+      - StairsAttic
+      - Tiles
+      - WetTiles
+    - Guid: 5535c34e044217458448a617115336c3
+      ID: -197103748
+      Name: HitWall
+      Path: Default Work Unit/HitWall
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HitWall
+        ObjectType: 9
+      ValueGuids:
+      - bytes: 362f99c23a56d34c9c8b2cca1fcf8dd7
+      - bytes: 63324b1bfd8ce5498bfcfd99c7c40a22
+      - bytes: c35bacde7052e948bd6b38dfc26c9612
+      - bytes: 8e3183aef9be5b4887a1430b301d5152
+      - bytes: de866d9bed060d458653b76e9cfecd15
+      ValueIcons:
+      - ElementName: Indoor
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Off
+        ObjectType: 8
+      - ElementName: Outdoor
+        ObjectType: 8
+      - ElementName: Wall
+        ObjectType: 8
+      valueIDs: 04134a14db3ba32c648a79370fe89f08b96db17d
+      values:
+      - Indoor
+      - None
+      - Off
+      - Outdoor
+      - Wall
+    - Guid: 51e4c2cc2e979c47b1e68490d28a2ebc
+      ID: 170325826
+      Name: TaskController
+      Path: Default Work Unit/TaskController
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TaskController
+        ObjectType: 9
+      ValueGuids:
+      - bytes: c96749d1789d494297129daa53422cbc
+      - bytes: bd9e57fd11b04c4e998b6559355083bf
+      - bytes: 6457cae13264024a9bc58065e4ed62a1
+      - bytes: 44e7f49932f4c5439898486f10cdf079
+      - bytes: 866e140e5f7a0e47abb897e024269cca
+      ValueIcons:
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Task0_ClockOn
+        ObjectType: 8
+      - ElementName: Task1_GeneratorOn
+        ObjectType: 8
+      - ElementName: Task2_BathOn
+        ObjectType: 8
+      - ElementName: Task3_AllOff
+        ObjectType: 8
+      valueIDs: db3ba32c5a7a20433a00886097741f727023efec
+      values:
+      - None
+      - Task0_ClockOn
+      - Task1_GeneratorOn
+      - Task2_BathOn
+      - Task3_AllOff
+  streamingPoolSize: 1024
+  SwitchWwu:
+  - Guid: '{44C5D7BB-B851-4074-9C8D-583213BB3BA1}'
+    m_lastTimePart2: -1999205121
+    m_lastTimePsrt1: 635947008
+    ParentPhysicalPath: 
+    PhysicalPath: Switches/Default Work Unit.wwu
+    List: []
+  TriggerWwu:
+  - Guid: '{30684717-0AB4-49DA-A669-DEA31A14AA40}'
+    m_lastTimePart2: -1999205121
+    m_lastTimePsrt1: 635947008
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers/Default Work Unit.wwu
+    List: []

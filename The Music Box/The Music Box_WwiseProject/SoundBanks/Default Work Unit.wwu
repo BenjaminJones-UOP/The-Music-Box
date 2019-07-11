@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{68647F0A-7B38-4866-83FC-C5283250EB16}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{68647F0A-7B38-4866-83FC-C5283250EB16}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{F4354787-6035-46D3-957E-FC173DC07723}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FootstepsEvent" ID="{79BF4833-A8FB-4129-BB59-5E9DEBAC9B0A}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Open_Indoor_Door" ID="{E3F97C4D-AD2B-421E-9936-223932B5F3DC}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Open_Back_Door" ID="{17F55744-6878-4296-B57E-8F927AE161DA}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GeneratorTurnOn" ID="{865A4329-D190-42EB-8D68-20DD1D160FCB}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pick_Up_Key" ID="{340EAE6A-6AFD-458E-B425-A7F676EE4E7E}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pull_Plug" ID="{5E7EE25F-B081-4622-9823-1B4B6D0C7771}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Completed_Task" ID="{99BCA34C-414A-467A-9C90-E32FA70B3443}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Garden_Ambience" ID="{12CA9E4B-C491-47E7-B859-9FFF2EE4CC2F}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Open_Front_Door" ID="{CE2789BF-D8BB-4949-B6CE-EB4E1E925125}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GeneratorOn" ID="{A7BB9E68-F864-49C1-AAFE-5DCDAFECC5E6}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TrafficAmbience" ID="{2F125D5D-460E-4A53-8A03-42E40326F00A}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Wrong_Task" ID="{E4CE2C52-DA4B-4C13-91A1-7C27DD4456D2}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Clock_Ticking" ID="{4D33BDFA-70B2-4CD3-90A7-A3C1C778B608}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GeneratorTurnOff" ID="{AE43FA55-F91C-4D15-AD68-81BD181788F8}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Open_Clock" ID="{9E94703C-7205-4D17-8BDB-8EA3256EB621}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bath_Taps" ID="{4B9CB0C7-C50E-4D9D-97E6-0CA143A37E9B}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Wallhits" ID="{23C4920F-9DAD-4DEC-BCEE-6A969D6C2E8D}" WorkUnitID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

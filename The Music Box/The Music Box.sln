@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Music Box", "Assembly-CSharp.csproj", "{C453FAB7-F95A-B2B1-8829-BD860A62187C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Music Box", "Assembly-CSharp-Editor.csproj", "{30F61379-69CD-C4B5-9AD5-71BE8959D4CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C453FAB7-F95A-B2B1-8829-BD860A62187C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C453FAB7-F95A-B2B1-8829-BD860A62187C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C453FAB7-F95A-B2B1-8829-BD860A62187C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C453FAB7-F95A-B2B1-8829-BD860A62187C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F61379-69CD-C4B5-9AD5-71BE8959D4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F61379-69CD-C4B5-9AD5-71BE8959D4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F61379-69CD-C4B5-9AD5-71BE8959D4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F61379-69CD-C4B5-9AD5-71BE8959D4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

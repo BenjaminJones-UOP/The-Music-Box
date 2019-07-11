@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C6FA8A24-CB81-4BF6-9F84-3197F9F7489F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TrafficAmbience" ID="{2F125D5D-460E-4A53-8A03-42E40326F00A}">
+					<ChildrenList>
+						<Action Name="" ID="{268C9F51-2034-46AE-9360-B26FCBF9025F}" ShortID="618508727">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Traffic" ID="{EBE209B3-8E9B-48A4-9984-0A90D83B032F}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Open_Front_Door" ID="{CE2789BF-D8BB-4949-B6CE-EB4E1E925125}">
+					<ChildrenList>
+						<Action Name="" ID="{5BD40ED6-9233-439F-9FF4-58EA4B6C58E0}" ShortID="887470266">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenFrontDoor" ID="{2D52FCA7-4C17-4914-BE67-EBAF6C2F1CEA}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Clock_Ticking" ID="{4D33BDFA-70B2-4CD3-90A7-A3C1C778B608}">
+					<ChildrenList>
+						<Action Name="" ID="{340A97FB-65D1-49D1-B6FC-0109EA9915EE}" ShortID="742635488">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClockTicking" ID="{9A28E439-CC05-4786-B4D5-0C4D5D4AE971}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GeneratorOn" ID="{A7BB9E68-F864-49C1-AAFE-5DCDAFECC5E6}">
+					<ChildrenList>
+						<Action Name="" ID="{9A1FCBBC-9771-4F57-A10F-316E7D1F5BED}" ShortID="629989870">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GeneratorOn" ID="{04E994D1-0D5B-4DF7-A800-1EF32E7B4548}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Open_Back_Door" ID="{17F55744-6878-4296-B57E-8F927AE161DA}">
+					<ChildrenList>
+						<Action Name="" ID="{CE2201D2-2BD6-4DA4-BBF0-F8EDF874CE47}" ShortID="673519270">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenBackDoor" ID="{0C82710B-4D6A-4E90-8096-7DB965ECFE71}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Open_Indoor_Door" ID="{E3F97C4D-AD2B-421E-9936-223932B5F3DC}">
+					<ChildrenList>
+						<Action Name="" ID="{10CBD08E-52EF-4ADD-9B54-00E784B99E89}" ShortID="470348260">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenIndoorDoor" ID="{4EB35D87-6BB2-4FC9-9B0B-92B26FC366AB}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bath_Taps" ID="{4B9CB0C7-C50E-4D9D-97E6-0CA143A37E9B}">
+					<ChildrenList>
+						<Action Name="" ID="{37B2FB1C-BEA4-444C-833D-2C3573345BB8}" ShortID="770902883">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BathTaps" ID="{BF675BAA-0760-4F62-A58A-707D0237AE1F}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pull_Plug" ID="{5E7EE25F-B081-4622-9823-1B4B6D0C7771}">
+					<ChildrenList>
+						<Action Name="" ID="{33B0AD57-0568-49D9-9D30-7067C066CCA0}" ShortID="965588996">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PullPlugBath" ID="{1D81EFFB-6806-4546-A227-63E80DB2C1EC}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Garden_Ambience" ID="{12CA9E4B-C491-47E7-B859-9FFF2EE4CC2F}">
+					<ChildrenList>
+						<Action Name="" ID="{A173D555-B48C-4161-B3FF-6EBDC9563B75}" ShortID="116671265">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Garden Ambience Nonroad" ID="{9BB84BFD-D393-4AB4-9776-B5C30ECA5A6F}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FootstepsEvent" ID="{79BF4833-A8FB-4129-BB59-5E9DEBAC9B0A}">
+					<ChildrenList>
+						<Action Name="" ID="{AC7991E3-7F34-4498-B1A8-666E8087352C}" ShortID="588663691">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CarpetFootsteps" ID="{709305C6-B9C1-49B0-AC04-B72C7FA52C13}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F5F052E5-7076-4FC2-9080-449C242EDBB8}" ShortID="53924304">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FloorboardFootsteps" ID="{F0342905-6374-4B56-96D2-CF7F2901C6A7}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{61C9D213-9832-4845-B9AF-E42272CA007A}" ShortID="864326082">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GrassFootsteps" ID="{1866AABD-1DEB-4418-A20D-3CD88DCC6B75}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BED50F6F-A2CD-488E-A3B7-22FD14D96EC8}" ShortID="307284288">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TileFootsteps" ID="{FFE8331B-F29B-4AD7-89DB-A532B68D3318}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A46EBE4A-6A56-44FA-BC3A-E26B5B11D14B}" ShortID="358935175">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WetFootsteps" ID="{9F757CAF-0D87-4719-B303-B8D10AE6CFEF}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{369DBF0F-BFBA-4A89-A261-28F66810E39A}" ShortID="665596496">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StairCreakFootsteps" ID="{4B5E904B-6C3D-474E-BF61-B0E6C93F278C}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3913FDF1-D49C-4B64-9A88-FA444E34AFC4}" ShortID="24640266">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StairCreakFootsteps_Attic" ID="{F60A7659-0D88-4F8C-9BF3-A6C189EC2402}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Completed_Task" ID="{99BCA34C-414A-467A-9C90-E32FA70B3443}">
+					<ChildrenList>
+						<Action Name="" ID="{095124DB-5F2C-4131-8406-502C6136E396}" ShortID="1007862351">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CompletedTask" ID="{ED26AF97-FD89-4471-87A9-02903709EFC3}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wrong_Task" ID="{E4CE2C52-DA4B-4C13-91A1-7C27DD4456D2}">
+					<ChildrenList>
+						<Action Name="" ID="{D85670F8-A413-4240-A724-5386A4005012}" ShortID="614446073">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WrongTask" ID="{59964EE1-EC46-4486-B58B-126BD89CA873}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GeneratorTurnOn" ID="{865A4329-D190-42EB-8D68-20DD1D160FCB}">
+					<ChildrenList>
+						<Action Name="" ID="{3A042E8D-0380-4700-8045-C10BC654A9E5}" ShortID="977343679">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GeneratorTurnOn" ID="{DBC23711-796E-4B33-99A3-7DEC706D98A4}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GeneratorTurnOff" ID="{AE43FA55-F91C-4D15-AD68-81BD181788F8}">
+					<ChildrenList>
+						<Action Name="" ID="{482531FF-0348-4B63-8569-53E9F8AD5AEE}" ShortID="491493537">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GeneratorTurnOff" ID="{41D28CAD-FD91-43E1-BF0C-45DB1435563C}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Open_Clock" ID="{9E94703C-7205-4D17-8BDB-8EA3256EB621}">
+					<ChildrenList>
+						<Action Name="" ID="{BA0BED4B-E1BD-4529-8BD1-89C6A7EECF8E}" ShortID="581539597">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open Clock" ID="{AAEFDF78-1F63-4A90-9930-2929031C823C}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pick_Up_Key" ID="{340EAE6A-6AFD-458E-B425-A7F676EE4E7E}">
+					<ChildrenList>
+						<Action Name="" ID="{0D22107A-CE40-445C-9ED2-730C9CCDAFD9}" ShortID="170891188">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickUpKey" ID="{D89778D8-9ABE-46F9-AF0D-FC9CD521873C}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wallhits" ID="{23C4920F-9DAD-4DEC-BCEE-6A969D6C2E8D}">
+					<ChildrenList>
+						<Action Name="" ID="{946E510E-B487-43F8-9DF3-3D10E24F8869}" ShortID="163632976">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HitIndoor" ID="{22B92C4B-5D7B-4FE0-925E-D44F10D0556B}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{292654DA-E018-43D8-BB72-B76736BE8C2C}" ShortID="796219358">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HitOutdoor" ID="{C24B6B82-90DD-42A5-8D9C-A85C500C378B}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4A75F289-D758-44D6-85D9-6FAD89255AC8}" ShortID="414440425">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WallRub" ID="{1DEF2C70-F77B-4F8A-940E-EAC3C09D10E4}" WorkUnitID="{338C36A1-83E5-46E1-85E4-66730C0163A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

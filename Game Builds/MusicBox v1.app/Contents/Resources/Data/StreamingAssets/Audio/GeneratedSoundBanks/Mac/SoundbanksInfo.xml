@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>/Users/asmprog/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/CT6CTPRO/The Music Box/The Music Box_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/asmprog/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/CT6CTPRO/The Music Box/The Music Box_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/asmprog/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/CT6CTPRO/The Music Box/The Music Box_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/asmprog/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/CT6CTPRO/The Music Box/The Music Box_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2998966135" Name="Bath_Taps" ObjectPath="\Events\Default Work Unit\Bath_Taps" MaxAttenuation="30.000000"/>
+				<Event Id="1587712820" Name="Carpet_Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps\Carpet_Footsteps"/>
+				<Event Id="175705637" Name="Clock_Ticking" ObjectPath="\Events\Default Work Unit\Clock_Ticking" MaxAttenuation="10.000000"/>
+				<Event Id="1151119763" Name="Floorboard_Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps\Floorboard_Footsteps"/>
+				<Event Id="1286660161" Name="Garden_Ambience" ObjectPath="\Events\Default Work Unit\Garden_Ambience" MaxAttenuation="41.000000"/>
+				<Event Id="4293911511" Name="GeneratorOn" ObjectPath="\Events\Default Work Unit\GeneratorOn" MaxAttenuation="30.000000"/>
+				<Event Id="1313880161" Name="Grass_Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps\Grass_Footsteps"/>
+				<Event Id="4168667344" Name="Open_Back_Door" ObjectPath="\Events\Default Work Unit\Open_Back_Door"/>
+				<Event Id="2312148644" Name="Open_Front_Door" ObjectPath="\Events\Default Work Unit\Open_Front_Door"/>
+				<Event Id="2644199244" Name="Open_Indoor_Door" ObjectPath="\Events\Default Work Unit\Open_Indoor_Door"/>
+				<Event Id="277024923" Name="Pull_Plug" ObjectPath="\Events\Default Work Unit\Pull_Plug"/>
+				<Event Id="43422225" Name="Tile_Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps\Tile_Footsteps"/>
+				<Event Id="2181904100" Name="TrafficAmbience" ObjectPath="\Events\Default Work Unit\TrafficAmbience" MaxAttenuation="41.000000"/>
+				<Event Id="3309963603" Name="Wet_Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps\Wet_Footsteps"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="20702988" Language="SFX">
+					<ShortName>Open Front Door.wav</ShortName>
+					<Path>SFX/Open Front Door_1C9C67B2.wem</Path>
+				</File>
+				<File Id="42915210" Language="SFX">
+					<ShortName>Carpet Footstep 07.wav</ShortName>
+					<Path>SFX/Carpet Footstep 07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="60283323" Language="SFX">
+					<ShortName>Floorboard Footstep 02.wav</ShortName>
+					<Path>SFX/Floorboard Footstep 02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="90116956" Language="SFX">
+					<ShortName>Grass Footstep 04.wav</ShortName>
+					<Path>SFX/Grass Footstep 04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="137453179" Language="SFX">
+					<ShortName>Tile Footstep 02.wav</ShortName>
+					<Path>SFX/Tile Footstep 02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="138996145" Language="SFX">
+					<ShortName>Carpet Footstep 02.wav</ShortName>
+					<Path>SFX/Carpet Footstep 02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="156837647" Language="SFX">
+					<ShortName>Carpet Footstep 04.wav</ShortName>
+					<Path>SFX/Carpet Footstep 04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="174969563" Language="SFX">
+					<ShortName>Floorboard Footstep 06.wav</ShortName>
+					<Path>SFX/Floorboard Footstep 06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="212340741" Language="SFX">
+					<ShortName>Tile Footstep 03.wav</ShortName>
+					<Path>SFX/Tile Footstep 03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="216075381" Language="SFX">
+					<ShortName>Open Back Door.wav</ShortName>
+					<Path>SFX/Open Back Door_1C9C67B2.wem</Path>
+				</File>
+				<File Id="248333512" Language="SFX">
+					<ShortName>Grass Footstep 03.wav</ShortName>
+					<Path>SFX/Grass Footstep 03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="259402227" Language="SFX">
+					<ShortName>Carpet Footstep 01.wav</ShortName>
+					<Path>SFX/Carpet Footstep 01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="265998178" Language="SFX">
+					<ShortName>Plughole.wav</ShortName>
+					<Path>SFX/Plughole_1C9C67B2.wem</Path>
+				</File>
+				<File Id="304701323" Language="SFX">
+					<ShortName>Open Indoor Door.wav</ShortName>
+					<Path>SFX/Open Indoor Door_1C9C67B2.wem</Path>
+				</File>
+				<File Id="367980862" Language="SFX">
+					<ShortName>Floorboard Footstep 05.wav</ShortName>
+					<Path>SFX/Floorboard Footstep 05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="378465535" Language="SFX">
+					<ShortName>Floorboard Footstep 03.wav</ShortName>
+					<Path>SFX/Floorboard Footstep 03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="387766818" Language="SFX">
+					<ShortName>Running Tap Water.wav</ShortName>
+					<Path>SFX/Running Tap Water_F17FB28C.wem</Path>
+				</File>
+				<File Id="444939576" Language="SFX">
+					<ShortName>Tile Footstep 04.wav</ShortName>
+					<Path>SFX/Tile Footstep 04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="463702005" Language="SFX">
+					<ShortName>Processed Birdsong 02.wav</ShortName>
+					<Path>SFX/Processed Birdsong 02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="474108356" Language="SFX">
+					<ShortName>Grass Footstep 01.wav</ShortName>
+					<Path>SFX/Grass Footstep 01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="486540988" Language="SFX">
+					<ShortName>Processed Generator.wav</ShortName>
+					<Path>SFX/Processed Generator_F17FB28C.wem</Path>
+				</File>
+				<File Id="489921611" Language="SFX">
+					<ShortName>Tile Footstep 01.wav</ShortName>
+					<Path>SFX/Tile Footstep 01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="490814866" Language="SFX">
+					<ShortName>Wet Tile Footstep 01.wav</ShortName>
+					<Path>SFX/Wet Tile Footstep 01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="507598540" Language="SFX">
+					<ShortName>Tile Footstep 06.wav</ShortName>
+					<Path>SFX/Tile Footstep 06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="508374267" Language="SFX">
+					<ShortName>Clock Ticking.wav</ShortName>
+					<Path>SFX/Clock Ticking_F17FB28C.wem</Path>
+				</File>
+				<File Id="554988599" Language="SFX">
+					<ShortName>Carpet Footstep 03.wav</ShortName>
+					<Path>SFX/Carpet Footstep 03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="625680221" Language="SFX">
+					<ShortName>Carpet Footstep 08.wav</ShortName>
+					<Path>SFX/Carpet Footstep 08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="654488468" Language="SFX">
+					<ShortName>Floorboard Footstep 04.wav</ShortName>
+					<Path>SFX/Floorboard Footstep 04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="692857148" Language="SFX">
+					<ShortName>Carpet Footstep 05.wav</ShortName>
+					<Path>SFX/Carpet Footstep 05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="698175294" Language="SFX">
+					<ShortName>Grass Footstep 02.wav</ShortName>
+					<Path>SFX/Grass Footstep 02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="707883740" Language="SFX">
+					<ShortName>Wet Tile Footstep 03.wav</ShortName>
+					<Path>SFX/Wet Tile Footstep 03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="715487450" Language="SFX">
+					<ShortName>Processed Traffic.wav</ShortName>
+					<Path>SFX/Processed Traffic_F17FB28C.wem</Path>
+				</File>
+				<File Id="845193820" Language="SFX">
+					<ShortName>Tile footstep 07.wav</ShortName>
+					<Path>SFX/Tile footstep 07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="873839231" Language="SFX">
+					<ShortName>Wet Tile Footstep 02.wav</ShortName>
+					<Path>SFX/Wet Tile Footstep 02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="916611516" Language="SFX">
+					<ShortName>Floorboard Footstep 07.wav</ShortName>
+					<Path>SFX/Floorboard Footstep 07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="916814208" Language="SFX">
+					<ShortName>Carpet Footstep 06.wav</ShortName>
+					<Path>SFX/Carpet Footstep 06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1001454089" Language="SFX">
+					<ShortName>Tile Footstep 08.wav</ShortName>
+					<Path>SFX/Tile Footstep 08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1023762787" Language="SFX">
+					<ShortName>Tile Footstep 05.wav</ShortName>
+					<Path>SFX/Tile Footstep 05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1061048628" Language="SFX">
+					<ShortName>Floorboard Footstep 01.wav</ShortName>
+					<Path>SFX/Floorboard Footstep 01_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

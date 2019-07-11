@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41F49D7C-E645-4F52-9BBD-146630802493}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{41F49D7C-E645-4F52-9BBD-146630802493}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="FootstepsSwitch" ID="{16F09CFD-8B76-4135-AA33-4459042761F9}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{95C3F4C9-909B-413D-A0D5-C40D5649DE70}"/>
+						<State Name="Carpet" ID="{CF984ACA-0D43-42B6-AB5E-4B8AD0BBDD66}"/>
+						<State Name="Tiles" ID="{A19F0E73-2489-4DCB-AEE8-C8AD51BDAB5A}"/>
+						<State Name="WetTiles" ID="{92331D51-74AF-4023-B1FB-6FDFDABCBB31}"/>
+						<State Name="Floorboards" ID="{BF2C806C-5550-41F4-971A-0EFF49866E6D}"/>
+						<State Name="Grass" ID="{341EED65-656C-4CDA-871B-3DDD51DC060F}"/>
+						<State Name="Stairs" ID="{B95013D3-D9D8-46FC-A49C-840E9D59EC5B}"/>
+						<State Name="StairsAttic" ID="{F957316B-4421-49DD-ADD3-C4CEA282DE50}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="TaskController" ID="{CCC2E451-972E-479C-B1E6-8490D28A2EBC}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{D14967C9-9D78-4249-9712-9DAA53422CBC}"/>
+						<State Name="Task1_GeneratorOn" ID="{E1CA5764-6432-4A02-9BC5-8065E4ED62A1}"/>
+						<State Name="Task2_BathOn" ID="{99F4E744-F432-43C5-9898-486F10CDF079}"/>
+						<State Name="Task3_AllOff" ID="{0E146E86-7A5F-470E-ABB8-97E024269CCA}"/>
+						<State Name="Task0_ClockOn" ID="{FD579EBD-B011-4E4C-998B-6559355083BF}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="HitWall" ID="{4EC33555-4204-4517-8448-A617115336C3}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{1B4B3263-8CFD-49E5-8BFC-FD99C7C40A22}"/>
+						<State Name="Indoor" ID="{C2992F36-563A-4CD3-9C8B-2CCA1FCF8DD7}"/>
+						<State Name="Outdoor" ID="{AE83318E-BEF9-485B-87A1-430B301D5152}"/>
+						<State Name="Wall" ID="{9B6D86DE-06ED-450D-8653-B76E9CFECD15}"/>
+						<State Name="Off" ID="{DEAC5BC3-5270-48E9-BD6B-38DFC26C9612}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

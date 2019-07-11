@@ -1,0 +1,106 @@
+Event	ID	Name			Wwise Object Path	Notes
+	175705637	Clock_Ticking			\Default Work Unit\Clock_Ticking	
+	277024923	Pull_Plug			\Default Work Unit\Pull_Plug	
+	849535652	Completed_Task			\Default Work Unit\Completed_Task	
+	1286660161	Garden_Ambience			\Default Work Unit\Garden_Ambience	
+	2181904100	TrafficAmbience			\Default Work Unit\TrafficAmbience	
+	2312148644	Open_Front_Door			\Default Work Unit\Open_Front_Door	
+	2644199244	Open_Indoor_Door			\Default Work Unit\Open_Indoor_Door	
+	2998966135	Bath_Taps			\Default Work Unit\Bath_Taps	
+	3182336282	FootstepsEvent			\Default Work Unit\FootstepsEvent	
+	4168667344	Open_Back_Door			\Default Work Unit\Open_Back_Door	
+	4293911511	GeneratorOn			\Default Work Unit\GeneratorOn	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	170325826	TaskController			\Default Work Unit\TaskController	
+	3586861854	FootstepsSwitch			\Default Work Unit\FootstepsSwitch	
+
+State	ID	Name	State Group			Notes
+	0	None	TaskController			
+	1126201946	Task0_ClockOn	TaskController			
+	1619525690	Task1_GeneratorOn	TaskController			
+	1914664087	Task2_BathOn	TaskController			
+	3975095152	Task3_AllOff	TaskController			
+	0	None	FootstepsSwitch			
+	644576870	WetTiles	FootstepsSwitch			
+	774877530	Floorboards	FootstepsSwitch			
+	2412606308	Carpet	FootstepsSwitch			
+	3316001432	Tiles	FootstepsSwitch			
+	4248645337	Grass	FootstepsSwitch			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	19020010	Grass	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps		
+	53943858	Floorboards	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\GrassFootsteps		
+	55208276	Task2_BathOn	TaskController	\Actor-Mixer Hierarchy\Default Work Unit\GeneratorOn		
+	85607795	Tiles	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\GrassFootsteps		
+	88094355	WetTiles	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps		
+	94231438	Carpet	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\GrassFootsteps		
+	147042846	Carpet	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps		
+	175924218	Task3_AllOff	TaskController	\Actor-Mixer Hierarchy\Default Work Unit\GeneratorOn		
+	177575809	Task1_GeneratorOn	TaskController	\Actor-Mixer Hierarchy\Default Work Unit\BathTaps		
+	212962298	Grass	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\WetFootsteps		
+	266170584	Task1_GeneratorOn	TaskController	\Actor-Mixer Hierarchy\Default Work Unit\ClockTicking		
+	270219011	Task3_AllOff	TaskController	\Actor-Mixer Hierarchy\Default Work Unit\BathTaps		
+	364993161	Grass	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps		
+	374166543	Task0_ClockOn	TaskController	\Actor-Mixer Hierarchy\Default Work Unit\GeneratorOn		
+	392015882	Task0_ClockOn	TaskController	\Actor-Mixer Hierarchy\Default Work Unit\BathTaps		
+	492569834	WetTiles	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\GrassFootsteps		
+	549851768	Tiles	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps		
+	566073060	Task3_AllOff	TaskController	\Actor-Mixer Hierarchy\Default Work Unit\ClockTicking		
+	600435717	Tiles	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps		
+	648326156	Floorboards	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\WetFootsteps		
+	660028158	Tiles	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\WetFootsteps		
+	724947946	Carpet	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps		
+	786691938	Floorboards	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps		
+	812348719	Floorboards	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps		
+	837975387	WetTiles	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps		
+	890665874	WetTiles	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps		
+	891008479	Grass	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps		
+	944772600	Carpet	FootstepsSwitch	\Actor-Mixer Hierarchy\Default Work Unit\WetFootsteps		
+	1049799738	Task2_BathOn	TaskController	\Actor-Mixer Hierarchy\Default Work Unit\ClockTicking		
+
+Effect plug-ins	ID	Name	Type				Notes
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	20702988	OpenFrontDoor	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Open Front Door_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\OpenFrontDoor		117824
+	42915210	Carpetfootstep07	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Carpet Footstep 07_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps\Carpetfootstep07		98752
+	60283323	FloorboardFootsteps02	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Floorboard Footstep 02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps\FloorboardFootsteps02		166032
+	81329345	CompletedTask	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\CompleteTaskJingle_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\CompletedTask		352944
+	90116956	GrassFootsteps04	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Grass Footstep 04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrassFootsteps\GrassFootsteps04		97792
+	137453179	TileFootsteps02	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Tile Footstep 02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps\TileFootsteps02		139076
+	138996145	Carpetfootstep02	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Carpet Footstep 02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps\Carpetfootstep02		167244
+	156837647	Carpetfootstep04	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Carpet Footstep 04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps\Carpetfootstep04		85184
+	174969563	FloorboardFootsteps06	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Floorboard Footstep 06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps\FloorboardFootsteps06		133248
+	212340741	TileFootsteps03	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Tile Footstep 03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps\TileFootsteps03		144000
+	216075381	OpenBackDoor	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Open Back Door_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\OpenBackDoor		167580
+	248333512	GrassFootsteps03	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Grass Footstep 03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrassFootsteps\GrassFootsteps03		114648
+	259402227	Carpetfootstep01	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Carpet Footstep 01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps\Carpetfootstep01		167420
+	265998178	PullPlugBath	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Plughole_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\PullPlugBath		2935468
+	304701323	OpenIndoorDoor	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Open Indoor Door_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\OpenIndoorDoor		341040
+	367980862	FloorboardFootsteps05	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Floorboard Footstep 05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps\FloorboardFootsteps05		169248
+	378465535	FloorboardFootsteps03	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Floorboard Footstep 03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps\FloorboardFootsteps03		159772
+	387766818	BathTaps	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Running Tap Water_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\BathTaps		5247808
+	444939576	TileFootsteps04	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Tile Footstep 04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps\TileFootsteps04		124168
+	463702005	Garden Ambience Nonroad	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Processed Birdsong 02_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Garden Ambience Nonroad		11796048
+	474108356	GrassFootsteps01	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Grass Footstep 01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrassFootsteps\GrassFootsteps01		167420
+	486540988	GeneratorOn	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Processed Generator_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneratorOn		10315564
+	489921611	TileFootsteps01	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Tile Footstep 01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps\TileFootsteps01		123852
+	490814866	WetFootsteps01	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Wet Tile Footstep 01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\WetFootsteps\WetFootsteps01		171428
+	507598540	TileFootsteps06	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Tile Footstep 06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps\TileFootsteps06		131776
+	508374267	ClockTicking	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Clock Ticking_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClockTicking		1438976
+	554988599	Carpetfootstep03	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Carpet Footstep 03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps\Carpetfootstep03		87488
+	625680221	Carpetfootstep08	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Carpet Footstep 08_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps\Carpetfootstep08		117428
+	654488468	FloorboardFootsteps04	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Floorboard Footstep 04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps\FloorboardFootsteps04		161184
+	692857148	Carpetfootstep05	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Carpet Footstep 05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps\Carpetfootstep05		80320
+	698175294	GrassFootsteps02	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Grass Footstep 02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrassFootsteps\GrassFootsteps02		167244
+	707883740	WetFootsteps03	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Wet Tile Footstep 03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\WetFootsteps\WetFootsteps03		154744
+	715487450	Traffic	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Processed Traffic_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Traffic		13918040
+	845193820	TileFootsteps07	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Tile footstep 07_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps\TileFootsteps07		154744
+	873839231	WetFootsteps02	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Wet Tile Footstep 02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\WetFootsteps\WetFootsteps02		124168
+	916611516	FloorboardFootsteps07	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Floorboard Footstep 07_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps\FloorboardFootsteps07		64680
+	916814208	Carpetfootstep06	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Carpet Footstep 06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetFootsteps\Carpetfootstep06		84672
+	1001454089	TileFootsteps08	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Tile Footstep 08_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps\TileFootsteps08		147000
+	1023762787	TileFootsteps05	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Tile Footstep 05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TileFootsteps\TileFootsteps05		120264
+	1061048628	FloorboardFootsteps01	Y:\Desktop\CT6CTPRO\The Music Box\The Music Box_WwiseProject\.cache\Mac\SFX\Floorboard Footstep 01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\FloorboardFootsteps\FloorboardFootsteps01		90688
+

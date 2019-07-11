@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{164C888D-D45D-4386-B551-1A30249AB2E5}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{164C888D-D45D-4386-B551-1A30249AB2E5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="WallPan" ID="{6983A8C1-D273-4850-8A36-02B33111DA37}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

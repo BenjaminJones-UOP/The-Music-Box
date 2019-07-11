@@ -1,0 +1,24 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	170325826	TaskController			\Default Work Unit\TaskController	
+	3586861854	FootstepsSwitch			\Default Work Unit\FootstepsSwitch	
+
+State	ID	Name	State Group			Notes
+	0	None	TaskController			
+	1126201946	Task0_ClockOn	TaskController			
+	1619525690	Task1_GeneratorOn	TaskController			
+	1914664087	Task2_BathOn	TaskController			
+	3975095152	Task3_AllOff	TaskController			
+	0	None	FootstepsSwitch			
+	644576870	WetTiles	FootstepsSwitch			
+	774877530	Floorboards	FootstepsSwitch			
+	2412606308	Carpet	FootstepsSwitch			
+	3316001432	Tiles	FootstepsSwitch			
+	4248645337	Grass	FootstepsSwitch			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

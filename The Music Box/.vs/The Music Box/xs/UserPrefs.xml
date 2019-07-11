@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{C453FAB7-F95A-B2B1-8829-BD860A62187C}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="338" Column="71" />
+      <File FileName="Assets/Scripts/objectDetection.cs" Line="56" Column="1" />
+      <File FileName="Assets/OpenDoor.cs" Line="35" Column="1" />
+      <File FileName="Assets/OpenBackDoor.cs" Line="28" Column="71" />
+      <File FileName="Assets/bedroomDoor.cs" Line="24" Column="97" />
+      <File FileName="Assets/clockScript.cs" Line="34" Column="6" />
+      <File FileName="Assets/generatorScript.cs" Line="26" Column="74" />
+      <File FileName="Assets/BathScript.cs" Line="30" Column="2" />
+      <File FileName="Assets/AtticDoor.cs" Line="33" Column="10" />
+      <File FileName="Assets/TrafficAmbience.cs" Line="7" Column="1" />
+      <File FileName="Assets/GardenAmbience.cs" Line="23" Column="1" />
+      <File FileName="Assets/ObsOccRay.cs" Line="49" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
